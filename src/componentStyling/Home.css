@@ -1,0 +1,130 @@
+.home-section {
+    display:flex;
+    flex-direction: row;
+    text-align:left;
+    /* height: calc(100vh - 75px); */
+    /* background-color: red; */
+  }
+.content {
+    padding-left: 30px;
+    padding-top: 85px;
+    /* background-color: yellow; */
+}
+.content h1{
+    font-size: 50px;
+}
+.content .intro,p{
+    font-size: 30px;
+}
+.content .name{
+    /* color:crimson; */
+    /* color: #f4459f; */
+    color: cadetblue;
+    color: rgb(94, 236, 141);
+}
+.content .p-name{
+  /* color:crimson; */
+  /* color: #f4459f; */
+  color: cadetblue;
+  color: rgb(94, 236, 141);
+  font-size: 65px;
+}
+.intro{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.exploring{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.profile-image {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* position: absolute; */
+    /* top:100px; */
+    padding-bottom: 40px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+    /* background-color: yellow; */
+    /* transform: translateX(200%); */
+    /* animation: slideFromRight 1s forwards; */
+  }
+  /* @keyframes slideFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  } */
+  .content {
+    font-size: 18px;
+    color: #f5efef;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideFromLeft 1s forwards;
+  }
+
+  @keyframes slideFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .project-link{
+    /* color:crimson; */
+    /* color: #f4459f; */
+    color: cadetblue;
+    color: rgb(94, 236, 141);
+    font-size: 35px;
+    margin-top: 10px;
+    border:2px solid rgb(232, 242, 242);
+    /* border-radius: 10%; */
+    background-color: rgba(128, 120, 120, 0.466);
+    transition: font-size 0.5s;
+  }
+  .project-link:hover{
+    font-size:40px;
+    border:2px solid rgb(232, 242, 242);
+  }
+
+  /* .cta-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  } */
+  @media (max-width:600px) {
+    .home-section{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .profile-image{
+
+      /* background-color: rgb(234, 223, 223); */
+      margin-left: auto;
+      width: 395px;
+      height: 500px;
+      margin-top:20px;
+      padding-bottom: 20px;
+      margin-bottom: 0px;
+    }
+    .content{
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+

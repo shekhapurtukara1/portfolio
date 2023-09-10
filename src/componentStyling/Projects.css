@@ -1,0 +1,16 @@
+/* .projects-container{
+     height:calc(100vh - 75px); 
+     background-color: green; 
+}*/
+.project-list{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+/* background-color: orange; */
+}
+.main-heading{
+    padding:28px 0px;
+    font-size: 50px;
+    /* background-color: green; */
+}

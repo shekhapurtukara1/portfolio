@@ -1,0 +1,52 @@
+.contact-container{
+    padding-bottom: 20px;
+}
+.contact-heading{
+    padding: 30px 0px;
+    font-size: 50px;
+    /* height:calc(100vh - 75px); */
+    font-family: Poppins,sans-serif;
+    color:rgb(251, 247, 247);    
+}
+input,textarea{
+    max-width: 50rem;
+    color:white;
+    font-size: 1.5rem;
+    padding:1.6rem 2.4rem;
+    border:1px solid gray;
+    /* text-transform: uppercase; */
+    box-shadow: 3px 3px  rgb(21, 20, 20);
+}
+input[type="submit"]{
+    max-width:16rem;
+    margin-top: 2rem;
+    /* background-color: rgb(86, 106, 86); */
+    color:white;
+    padding:1.4rem 2.2rem;
+    border-style: solid;
+    border-width: .1rem;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+.contact-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    font-size: 2rem;
+    padding-right: 15px;
+}
+.name-field{
+    display: flex;
+    padding-top:2rem ;
+    padding-bottom:2rem;
+}
+.email-field{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.submit-btn:hover,.input-mail:hover,.input-txt:hover,.text-area:hover{
+    border:1px solid rgb(109, 216, 238)
+}

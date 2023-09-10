@@ -1,0 +1,9 @@
+.PDFDownload-container{
+    height: calc(100vh - 75px);
+padding:28px 0px;
+
+}
+.pdfDownloadLink{
+    font-size: 35px;
+    padding: 12px;
+}
