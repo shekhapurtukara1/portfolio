@@ -4,7 +4,7 @@ import PDFDownloadLink from './PDFDownload';
 import "../componentStyling/Resume.css";
 
 const Resume = () => {
-  const pdfUrl = 'https://drive.google.com/file/d/1GfQuBzWUMY2Lqwg1XzxmslifAIokNJFi/view?usp=sharing';
+  const pdfUrl = 'https://orange-cherrita-39.tiiny.site';
 
   return (
     <div className="resume-section">
