@@ -21,7 +21,7 @@ const projects = [
     live:'https://random-riddle.netlify.app/'
   },
   {
-    name: 'React Portfolio',
+    name: 'Portfolio',
     description: 'I have crafted my personal portfolio website using React and CSS. This platform showcases my projects, skills, and professional journey in a visually engaging and user-friendly manner. Explore my work and expertise through this interactive portfolio built to reflect my passion for web development and design.. ',
     technologies: ['HTML | React | CSS | Javascript'],
     live:'https://shekhapurtukara1.github.io/portfolio/'
