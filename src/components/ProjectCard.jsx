@@ -12,7 +12,7 @@ const ProjectCard = ({ name, description, technologies, live}) => {
       <div className="technologies">
         Technologies used:<br/> {technologies.join(', ')}
       </div>
-      <div class="button-div"><button className="btn btn:hover">{live!=""?<Link to={live} target="_blank">Live</Link>:"Live not available"}</button></div> 
+      <div class="button-div"><button className="btn btn:hover">{live!==""?<Link to={live} target="_blank">Live</Link>:"Live not available"}</button></div> 
     </div>
     </div>
   );
