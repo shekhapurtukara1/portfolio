@@ -8,14 +8,13 @@ const About = () => {
      <div className="about">
     <div className="left">
        <div className="about-content"> <p style={{"padding":'10px'}}>
-       A passionate and dedicated Final-year B.Tech graduate majoring <br/> in Information Techology.
-       I have a profound love for technology and <br/> a strong desire to create innovative solutions 
-       that can drive positive change in the world.<br/>
-        I believe that the intersection of creativity, problem-solving, and <br/>teamwork is where the magic happens. <br/>
-        My journey has equipped me with a solid foundation in Frontend develoment, Java, MySQL.<br/>
-         I'm always eager to learn and adapt to new challenges in the rapidly evolving tech landscape.
+       I am a passionate and dedicated Salesforce Developer with a profound love for technology. <br/>
+       I enjoy creating <b>innovative</b> solutions that can drive positive change in the world.<br/>
+       I believe the intersection of creativity, problem-solving, and teamwork is where the magic happens.<br/>
+       My journey has equipped me with a solid foundation in <b style={{"color":"yellow"}}>Frontend development, Salesforce, and Java.</b><br/>
+       I'm always eager to learn and adapt to new challenges in the rapidly evolving tech landscape.
+       If you have a good opportunity that matches my skills and experience,<br/> feel free to contact me.
        </p>
-       <p style={{"padding":'10px'}}>I'm open to Job opportunities where I can contribute, learn and grow. If <br/> you have a good opportunity that matches my skills and experience then<br/> don't hesitate to contact me.</p>
        </div>
        </div>
        <div className="right">
@@ -50,6 +49,24 @@ const About = () => {
     </div>
     <div class="skill">
       <div class="skill-name">Data Structures & Algorithms</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Apex Programming</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Salesforce CPQ</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">LWC</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">SOQL</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Salesforce Admin</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">JavaScript</div>
     </div>
   </div>
   </div>
